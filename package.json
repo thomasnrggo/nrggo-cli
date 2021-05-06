@@ -9,8 +9,7 @@
   "keywords": [
     "javaScript",
     "node",
-    "npm",
-    "cli"
+    "npm"
   ],
   "bin": {
     "nrggo": "cli.js"
@@ -19,7 +18,15 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.1",
-    "readme-md-generator": "^1.0.0",
     "yargs": "^17.0.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasnrggo/nrggo-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thomasnrggo/nrggo-cli/issues"
+  },
+  "homepage": "https://github.com/thomasnrggo/nrggo-cli#readme"
 }
