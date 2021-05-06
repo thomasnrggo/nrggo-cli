@@ -5,8 +5,15 @@ const chalk = require('chalk')
 const log =  console.log
 
 const skills = [
-    'javaScript',
-    'HTML'
+    'HTML',
+    'CSS',
+    'SCSS',
+    'JavaScript',
+    'React',
+    'Node JS',
+    'Git',
+    'Redux',
+    'Firebase'
 ]
 
 const Jobs = [
@@ -60,7 +67,7 @@ yargs(hideBin(process.argv))
         log(chalk.yellow(`NRGGO skills are:`))
         log('-----------------------------------------------')
         skills.forEach(skill => (
-            log(chalk.greenBright(`=> ${skill}`))
+            log(`- ${chalk.greenBright(`${skill}`)}`)
         ))
     })
     .command('jobs', 'Show nrggos jobs', (yargs) => {

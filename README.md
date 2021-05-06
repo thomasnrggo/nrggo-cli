@@ -15,9 +15,14 @@ npm install -g nrggo
 ```
 
 ## Usage
-
+use nrggo skills to see my skills.
 ```sh
-nrggo skills or npm jobs
+nrggo skills
+```
+
+use nrggo jbos to see my work expirience.
+```sh
+nrggo jobs
 ```
 
 ## Author
@@ -31,11 +36,3 @@ nrggo skills or npm jobs
 Contributions, issues and feature requests are welcome!
 
 Feel free to check [issues page](https://github.com/thomasnrggo/nrggo-cli/issues). You can also take a look at the [contributing guide](https://github.com/thomasnrggo/nrggo-cli/blob/master/CONTRIBUTING.md).
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
